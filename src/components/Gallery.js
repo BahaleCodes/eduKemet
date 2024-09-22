@@ -13,13 +13,7 @@ const Gallery = () => {
 			alt: 'Social Media Marketing',
 			title: 'Social Media Marketing',
 			description: '1/15 Modules completed (6.67%)',
-		},
-		{
-			src: 'img/new/tourisim.png',
-			alt: 'Mastering Tourism Grade 11',
-			title: 'Mastering Tourism Grade 11',
-			description: '38/40 Modules completed (95%)',
-		},
+		}
 	];
 	return (
 		<div id='specialities' className='text-center'>
