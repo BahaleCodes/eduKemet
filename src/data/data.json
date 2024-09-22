@@ -1,0 +1,110 @@
+{
+    "Header": {
+
+        "title": "Ke rona Bahale Codes Software"
+
+    },
+    "About": {
+        "paragraph": "Bahale Codes is more than just Software Development, we are committed in empowering the African nation. We want to build a nation where children from the most remote village in South Africa will look ar a laptop and not fear nor be amazed but rather wonder what type of processor it has. We want to deliver solutions that won't deteriorate our society but also help grow it.",
+        "vision": "Our vision is to be the world's most prolific, successful and relevant, culturally rooted, IT company.",
+        "Why": [
+            "Security is what we prioritize.",
+            "We offer excellent user experience.",
+            "We work around your time-frame.",
+            "We offer business advice as part of the solution."
+        ],
+        "Why2": [
+            "Free basic Penetration testing as part of Testing.",
+            "Full transparency during development and maintenance",
+            "Free Advice on how to increase income streams",
+            "Free use of Algorithm and Data Structures"
+        ]
+    },
+    "Services": [
+        {
+            "icon": "fa fa-desktop",
+            "name": "Full-Stack website & Progressive Web Application",
+            "text": "From basic web apps all the way to large scale E-commerce websites with a native mobile app look and feel."
+        },
+        {
+            "icon": "fa fa-mobile-phone",
+            "name": "Native & Cross-platform Mobile Application",
+            "text": "Mobile applications for Android and iOS. We can also develop applications that work on both Android and iOS from one code base."
+        },
+        {
+            "icon": "fa fa-connectdevelop",
+            "name": "Development and documentation of IoT system",
+            "text": "Development and documenting the planning, physical structuring, feasibility analyzing, and cost structuring for IOT systems."
+        },
+        {
+            "icon": "fa fa-tachometer",
+            "name": "Information Security Audit & Penetration Testing",
+            "text": "Security risk analysis of any IT system based on information gathered through penetration testing and security audits."
+        },
+        {
+            "icon": "fa fa-code",
+            "name": "Source Code & Data Structures Analysis",
+            "text": "Re-programming a functioning system to boost speed, security and to avoid buffer errors. This also allows for efficient flow of data."
+        },
+        {
+            "icon": "fa fa-university",
+            "name": "Software Engineer Mentoring",
+            "text": "We offer Software Development trainings to help beginners become expert programmers."
+        },
+        {
+            "icon": "fa fa-database",
+            "name": "Database Backend and Interface Development",
+            "text": "Development of cloud databases along with fully functional user interfaces to access these databases. We can work with NoSQL and all other SQLs"
+
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "The website I wanted was planned properly and was always updated, which is exactly how a business should be run.",
+            "name": "Taahirah Zungu"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/02.jpg",
+            "name": "Keaoleboga Motlhankane",
+            "job": "Media and Marketing"
+        },
+        {
+            "img": "img/team/01.jpg",
+            "name": "Thabo Keorapetse Mponya",
+            "job": "Full-Stack Developer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Khethiwe Katlego Mthetwa",
+            "job": "Junior Developer [Mentorship]"
+        }
+    ],
+    "Contact": {
+        "facebook": "https://www.facebook.com/bahale.codes.9",
+        "twitter": "https://twitter.com/BahaleCodes?s=08",
+        "insta": "https://www.instagram.com/bahalecodes/"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Software Development and Maintenance",
+            "text": "We develop websites, mobile applications, desktop systems and many more software solutions."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Information Security audit",
+            "text": "We offer information security consultations, audits and penetration tests."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Operating System and Network Architectural designing",
+            "text": "Planning and structural designing of IoT systems and Network systems."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Software Development Mentor",
+            "text": "We can help you become a Full-Stack Software Developer in all the leading frameworks and programming languages."
+        }
+    ]
+}

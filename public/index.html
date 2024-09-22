@@ -1,0 +1,62 @@
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="icon" href="%PUBLIC_URL%/bc.ico" />
+	<link rel="apple-touch-icon" href="img/logo.svg" />
+	<link rel="apple-touch-icon" sizes="72x72" href="img/logo.svg" />
+
+	<link rel="apple-touch-icon" sizes="114x114" href="img/logo.svg" />
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
+
+	<title>eduKemet</title>
+	<meta name="description"
+		content="A platform where users become part of an ever growing culture of learning and putting their skills to the test. The more experience you build in that respective field, the higher you get ranked and the more respect you gain in the tech space at large." />
+	<meta name="author" content="@ThaboMponya" />
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = window._paq = window._paq || [];
+		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function () {
+			var u = "https://bahalecodescoza.matomo.cloud/";
+			_paq.push(['setTrackerUrl', u + 'matomo.php']);
+			_paq.push(['setSiteId', '1']);
+			var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript'; g.async = true; g.src = '//cdn.matomo.cloud/bahalecodescoza.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<!-- End Matomo Code -->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div id="root"></div>
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', function () {
+				navigator.serviceWorker.register('worker.js').then(function (registration) {
+					console.log('Worker registration successful', registration.scope);
+				}, function (err) {
+					console.log('Worker registration failed', err);
+				}).catch(function (err) {
+					console.log(err);
+				});
+			});
+		} else {
+			console.log('Service Worker is not supported by browser.');
+		}
+	</script>
+	<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>

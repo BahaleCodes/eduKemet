@@ -1,0 +1,22 @@
+.HireUsContainer{
+    position: relative;
+    min-height: 1px;
+    padding: 15px;
+    border: 2px solid gold;
+    border-radius: 30px;
+}
+
+.HireUsContainer li{
+    color: white;
+}
+
+.HireUsContainer container{
+    margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+    .HireUsContainer{
+        float: left;
+        width: 100%;
+    }
+}
