@@ -71,7 +71,7 @@ const Navigation = (props) => {
 						</div>
 					)
 				}
-				<a className='navbar-brand page-scroll' href='https://thandi.vercel.app' target="_blank" rel="noopener noreferrer">
+				<a className='navbar-brand page-scroll' href='https://thandi-gamma.vercel.app' target="_blank" rel="noopener noreferrer">
 					<div className="profile-pic">
 						<img alt="Company Logo" className="img" src="img/file.svg" />
 						<h5>Resume Ready</h5>
