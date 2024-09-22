@@ -1,4 +1,4 @@
-import { Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 // import HireUs from './components/HireUs/HireUs';
 import Bahale from './components/Bahale/Bahale';
 import Profile from './components/Profile';
@@ -11,18 +11,18 @@ import Profile from './components/Profile';
 
 const App = () => {
   return (
-    <div>
-      {/* <Route path="/hire-us" component={HireUs} /> */}
-      <Route path="/" exact component={Bahale} />
-      <Route path="/profile" exact component={Profile} />
-      {/* <Route path="/mern" exact component={Mern} />
-      <Route path="/app-dev" exact component={AppDev} />
-      <Route path="/api" exact component={Api} />
-      <Route path="/dbms-dev" exact component={DBMS} />
-      <Route path="/pen-test" exact component={PenTest} />
-      <Route path="/blockchain" exact component={Blockchain} /> */}
-      
-    </div>
+      <Routes>
+        {/* <Route path="/hire-us" component={HireUs} /> */}
+        <Route path="/" exact element={<Bahale />} />
+        <Route path="/profile" exact element={<Profile />} />
+        {/* <Route path="/mern" exact component={Mern} />
+        <Route path="/app-dev" exact component={AppDev} />
+        <Route path="/api" exact component={Api} />
+        <Route path="/dbms-dev" exact component={DBMS} />
+        <Route path="/pen-test" exact component={PenTest} />
+        <Route path="/blockchain" exact component={Blockchain} /> */}
+        
+      </Routes>
   )
 }
 
