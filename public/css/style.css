@@ -285,6 +285,7 @@ header .intro-text {
 	justify-content: center;
 	align-items: center;
 	flex-direction: space-evenly;
+	width: 100%;
 }
 .pyramid-section {
 	display: flex;
@@ -306,10 +307,14 @@ header .intro-text {
 .pyramid-name{
 	margin-right: 10px;
 }
+.pyramid-entry {
+	width: 100%;
+	font-size: 1rem;
+}
 /* Styling for pyramid levels */
 
-.level-1 .pyramid-entry {
-  width: 55%; /* Top of the pyramid (first place) gets a larger block */
+/* .level-1 .pyramid-entry {
+  width: 55%;
 }
 
 .level-2 .pyramid-entry {
@@ -346,14 +351,14 @@ header .intro-text {
 
 .level-10 .pyramid-entry {
   width: 100%;
-}
+} */
 
 
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (min-width: 600px) {
   .pyramid-entry {
-    width: 100%; /* Make it full width on smaller screens */
+    width: 100%;
     font-size: 1rem;
   }
 }
